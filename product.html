@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proizvodi</title>
+        <link rel="stylesheet" type="text/css" href="css/product.css">
+
+    </head>
+    <body>
+      <nav>
+
+        <div class="logo" ><h4>SWEET.co</h4></div>
+            
+        
+            <ul class="nav-links">
+                <li><a href="index.html">POČETNA</a></li>
+                <li><a href="product.html">PROIZVODI</a></li>
+                <li><a href="events.html">DOGAĐAJI</a></li>
+                <li><a href="about_us.html">O NAMA</a></li>
+            </ul>
+         
+         
+
+         <div class="burger">
+             <div class="line1"></div>
+             <div class="line2"></div>
+             <div class="line3"></div>
+         </div>
+
+
+
+     </nav>
+      
+      <div id="grid">
+          <div id="filter">
+              <form>
+                  <p><b>FILTER</b></p>
+
+                  <div id="product">
+                  <label for="tip_proizvoda">Tip proizvoda</label>
+                 <select id="tip_proizvoda">
+                     <option>Prikaži sve</option>
+                     <option>Mafini</option>
+                     <option>Torte</option>
+                     <option>Kolači</option>
+                 </select>
+                </div>
+
+                 <br>
+
+                 <div id="price">
+                  <label for="cena">Vrsta proizvoda</label>
+                  <br>
+                  <label for="posno">Posno</label>
+                  <input type="radio" name="vrsta_proizvoda" value="posno" id="posno" checked>
+                  <label for="neposno">Neposno</label>
+                  <input type="radio" name="vrsta_proizvoda" value="neposno" id="neposno">
+
+
+                </div>
+                <br>
+
+            <div class="dugmici">
+                <div id="apply" class="apply">
+                    <button>PRIMENI</button>
+                </div>
+                <div id="cancel" class="apply">
+                  <button>RESETUJ</button>
+              </div>
+            </div>
+
+              </form>
+
+          </div>
+
+
+          <div id="products">
+           
+        
+             <div class="row_product Mafini neposno"  data-type="mafin">
+                <img src="img/mafin1.jpg">
+                <div>Mafin sa pistaćima i musom</div>
+                <div class="cena">Neposno</div>
+             </div>
+            <div class="row_product Mafini posno" data-type="ny">
+                <img src="img/mafin2.jpg">
+                <div>Mafin od kukuruznog brašna</div>
+                <div class="cena">Posno</div>
+            </div>
+            
+              <div class="row_product Mafini posno" data-type="mafin">
+                <img src="img/mafin3.jpg">
+                <div>Mafin sa sezonskim voćem</div>
+                <div class="cena">Posno</div>
+                </div>
+               
+           
+
+           
+
+            <div class="row_product Torte posno" data-type="r">
+              <img src="img/torta1.jpg">
+              <div>Raw torta sa malinom</div>
+              <div class="cena">Posno</div>
+           </div>
+           
+           <div class="row_product Torte neposno" data-type="r">
+              <img src="img/torta2.jpg">
+              <div>Pariska torta</div>
+              <div class="cena">Neposno</div>
+            </div>
+            <div class="row_product Torte neposno" data-type="mafin">
+              <img src="img/torta3.jpg">
+              <div>Doboš torta</div>
+              <div class="cena">Neposno</div>
+              </div>
+             
+           
+
+            <div class="row_product Torte neposno" data-type="r">
+              <img src="img/torta4.jpg">
+              <div>Švarcvald</div>
+              <div class="cena">Neposno</div>
+           </div>
+           <div class="row_product Torte neposno" data-type="mafin">
+              <img src="img/torta5.jpg">
+              <div>Bidermajer torta</div>
+              <div class="cena">Neposno</div>
+            </div>
+            <div class="row_product Kolači neposno" data-type="ny">
+              <img src="img/kolac1.jpg">
+              <div>Čoko vulkan</div>
+              <div class="cena">Neposno</div>
+              </div>
+            
+           
+            <div class="row_product Kolači posno" data-type="mafin">
+              <img src="img/kolac2.jpg">
+              <div>Raw kolač Tutti Frutti</div>
+              <div class="cena">Posno</div>
+           </div>
+           <div class="row_product Kolači posno" data-type="mafin">
+              <img src="img/kolac3.jpg">
+              <div>Sweetco čizkejk</div>
+              <div class="cena">Posno</div>
+            </div>
+            <div class="row_product Kolači neposno" data-type="ny">
+              <img src="img/kolac4.jpg">
+              <div>Oreo kolač</div>
+              <div class="cena">Neposno</div>
+             
+            
+           
+           
+           
+           </div>
+           
+           
+            </div>
+          </div>
+          
+         
+      </div>
+    </div>
+    
+      
+<!--//code.jquery.com/jquery-1.11.3.min.js-->
+
+    <script src="./script/product.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    </body>
+</html>

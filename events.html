@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Događaji</title>
+    <link rel="stylesheet" type="text/css" href="css/events.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo"><h4>SWEET.co</h4></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">POČETNA</a></li>
+        <li><a href="product.html">PROIZVODI</a></li>
+        <li><a href="events.html">DOGAĐAJI</a></li>
+        <li><a href="about_us.html">O NAMA</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- ZAGLAVLJE -->
+    <section class="zaglavlje">
+      <div class="container-zaglavlje">
+        <div id="zaglavlje-1" class="deo-zaglavlja zaglavlje-border">
+          <img src="img/sampanjac.png" alt="" />
+          <p class="hide-sm">PROSLAVE</p>
+        </div>
+        <div id="zaglavlje-2" class="deo-zaglavlja">
+          <img src="img/skuter.png" alt="" />
+          <p class="hide-sm">DOSTAVA</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sadrzaj">
+      <div class="container">
+        <!-- PROSLAVE -->
+        <div class="tab-1-content deo-sadrzaja">
+          <div id="row">
+            <img src="img/deciji_rodj.jpg" alt="" />
+            <h3>Dečiji rođendan</h3>
+            <p>Rođendanske poslastice za vaše najmlađe</p>
+          </div>
+          <div id="row">
+            <img src="img/firma.jpg" alt="" />
+            <h3>Tematska proslava</h3>
+            <p>Najraznovrsniji deserti za tematske proslave</p>
+          </div>
+          <div id="row">
+            <img src="img/takeaway.jpg" alt="" />
+            <h3>Za poneti</h3>
+            <p>Iznenadite najmilije našom kutijom poslastica</p>
+          </div>
+        </div>
+
+        <!-- DOSTAVA -->
+        <div class="tab-2-content deo-sadrzaja">
+          <div class="container-dostava">
+            <!-- forma -->
+
+            <form class="narucivanje">
+              <div class="label">IME I PREZIME</div>
+              <div id="name-error" class="error-msg">
+                Unesite makar dve reci!
+              </div>
+              <input
+                id="name-input"
+                type="text"
+                placeholder="Unesite ime i prezime"
+              />
+              <br />
+              <br />
+
+              <div class="label">TELEFON</div>
+              <div id="phone-error" class="error-msg">
+                Koristite samo cifre!
+              </div>
+              <input
+                id="phone-input"
+                type="text"
+                placeholder="Unesite broj telefona"
+              />
+              <br />
+              <br />
+
+              <div class="label">E-MAIL</div>
+              <div id="mail-error" class="error-msg">
+                Vaš mail mora imati @ znak!
+              </div>
+              <input
+                id="mail-input"
+                type="text"
+                placeholder="Unesite vasu e-mail adresu"
+              />
+              <br />
+              <br />
+
+              <div class="label">ŠTA ŽELITE DA NARUČITE?</div>
+              <br />
+              <input
+                id="order-input"
+                type="text"
+                placeholder="Unesite ime proizvoda, količinu i dodatne napomene"
+              />
+
+              <div id="dugme">
+                <button>NARUČI</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script/events.js"></script>
+  </body>
+</html>
