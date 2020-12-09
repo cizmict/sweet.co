@@ -49,13 +49,13 @@ nav {
   margin: 5px;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .nav-links {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
@@ -140,13 +140,13 @@ button a:hover i {
   /* box-shadow:5px 5px 15px black; */
   border-radius: 8px;
 }
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .nav-links {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media only screen and (max-width: 1050px) {
   .body {
     width: 100vh;
   }

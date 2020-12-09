@@ -180,7 +180,7 @@ button {
   background-size: cover;
   border-radius: 30px;
 }
-@media screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
   .zaglavlje .container-zaglavlje {
     display: flex;
     flex-direction: row;
@@ -204,7 +204,7 @@ button {
   }
 }
 
-@media screen and (max-width: 1550px) {
+@media only screen and (max-width: 1550px) {
   .tab-1-content img {
     width: 371px;
     height: 234px;
@@ -212,7 +212,7 @@ button {
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media only screen and (max-width: 1350px) {
   .container-zaglavlje {
     padding: 0 100px;
   }
@@ -245,13 +245,13 @@ button {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .nav-links {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
