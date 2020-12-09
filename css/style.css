@@ -132,7 +132,8 @@ button a:hover i {
   align-items: center;
   justify-content: center;
   margin: 50px 0 0 70px;
-  padding-right: 70px;
+  /* padding-right: 55px; */
+  margin-left: -5px;
 }
 #right img {
   height: 550px;
